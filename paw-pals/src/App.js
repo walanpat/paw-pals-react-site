@@ -16,15 +16,17 @@ const App = () => {
       <title>Paw Pals</title>
 
       <div
+        className="imageBackground"
         style={{
           display: 'flex',
           alignContent: 'center',
           alignItems:'center',
           justifyContent: 'center',
-          flexDirection:'column'
+          flexDirection:'column',
+        
         }}
       >
-        <h1 style={{marginTop:"5%"}}>Paw Pals</h1>
+        <h1 style={{marginTop:"5%",color:"#e6001c"}}>Paw Pals</h1>
     
       </div>
       <Router>

@@ -6,7 +6,7 @@ import PawPalsInfograph from '../images/PawPalsInfograph.png';
 const Project = () => {
   return (
     <div style ={{marginLeft:'10%', marginRight:'15%'}}>
-      <Link to='/home'>
+      <Link to='/pages/home'>
         <p className="iconcircle">Home</p>
       </Link>
       <h2>

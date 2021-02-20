@@ -4,7 +4,7 @@ import { BrowserRouter as Route, Link } from 'react-router-dom';
 const Deliverables = () => {
   return (
     <div style={{ marginLeft: '10%', marginRight: '15%', marginTop: '2%' }}>
-          <Link to='/home'>
+          <Link to='/pages/home'>
     <p className="iconcircle">Home</p>
     </Link>
       <li>
