@@ -7,6 +7,7 @@ import PawPals from './components/PawPals';
 import Project from './components/Project';
 import RandomDog from './images/2Dogs.jpg';
 import Footer from './components/Footer';
+import Deliverables from './components/Deliverables';
 // markup
 
 const App = () => {
@@ -37,7 +38,7 @@ const App = () => {
 
         <Route path='/pages/journal' exact component={() => <div>Test4</div>} />
 
-        <Route path='/pages/deliverables' exact component={() => <div>Test5</div>} />
+        <Route path='/pages/deliverables' exact component={() => <Deliverables/>} />
         
       </Router>
       <Footer />
