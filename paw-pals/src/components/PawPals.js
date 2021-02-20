@@ -4,7 +4,7 @@ import { BrowserRouter as Route, Link } from 'react-router-dom';
 
 const PawPals = () => {
 return(
-<div>
+<div style ={{marginLeft:'10%'}}>
     
     <h1>Paw Pals App</h1>
     <h3>PawPals is a social media, but for dogs. PawPals helps dog owners find and connect with other dog owners in the area. </h3>

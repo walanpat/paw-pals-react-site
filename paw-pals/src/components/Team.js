@@ -3,7 +3,7 @@ import { BrowserRouter as Route, Link } from 'react-router-dom';
 
 
 const Team = () => {
-return(<div>
+return(<div style ={{marginLeft:'10%', marginRight:'15%'}}>
       <Link to='/home'>
     <p>Home</p>
     </Link>
