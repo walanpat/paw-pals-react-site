@@ -38,7 +38,7 @@ const App = () => {
 
         <Route path='/pages/team' exact component={() => <Team />} />
 
-        <Route path='/pages/journal' exact component={() => <div>Test4</div>} />
+        <Route path='/pages/journal' exact component={() => <div>Update Coming Soon!</div>} />
 
         <Route path='/pages/deliverables' exact component={() => <Deliverables/>} />
         
