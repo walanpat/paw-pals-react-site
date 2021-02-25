@@ -9,7 +9,7 @@ const PawPals = () => {
       <p>
         PawPals is a social media, but for dogs. PawPals helps dog owners find
         and connect with other dog owners in the area. By using a swiping style
-        method akin to Tindero or Bumble, the user interface will provide an
+        method akin to Tinder or Bumble, the user interface will provide an
         exciting experience to meet and set up connections between other dog
         owners in order to help find playdates/other dog lovers!{' '}
       </p>

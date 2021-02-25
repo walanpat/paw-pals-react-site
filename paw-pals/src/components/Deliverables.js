@@ -15,7 +15,7 @@ const Deliverables = () => {
       >
         
         <div style={{width:'75%'}}>
-        <a href=""><h3 style={{color:'blue'}}>Link to user stories</h3></a>
+        <a href="https://docs.google.com/document/d/1O6eSCXyVc0klD88hRRiPR8QYau0xyJ6soXVyVkCkdgs/edit?usp=sharing"><h3 style={{color:'blue'}}>Link to user stories</h3></a>
 
           <h2>Requirements</h2>
           <br />
