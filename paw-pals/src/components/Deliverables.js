@@ -1,14 +1,13 @@
 import React, { useState, Component, useMemo, useEffect } from 'react';
 import { BrowserRouter as Route, Link } from 'react-router-dom';
+import './deliverables.scss';
 
 const Deliverables = () => {
   const [dataHasLoaded, setDataHasLoaded] = useState(2);
  
   return (
     <div style={{ marginLeft: '10%', marginRight: '10%', marginTop: '2%' }}>
-      <Link to='/pages/home'>
-        <p className='iconcircle'>Home</p>
-      </Link>
+      
       <div
         className='flexWrapper'
         style={{ marginLeft: '2%', marginRight: '2%' }}
@@ -95,7 +94,7 @@ const Deliverables = () => {
           <br />
           </div>:null}
             {dataHasLoaded===1?<div>
-          <div style={{ border: '1px solid black' }}>
+          <div className="card">
             <h3>Reliability</h3>
 
             <h4>Definite</h4>
@@ -107,7 +106,7 @@ const Deliverables = () => {
       <h4>Improbable</h4> */}
             <br />
           </div>
-          <div style={{ border: '1px solid black' }}>
+          <div className="card">
             <h3>Performance (availability, capacity, resources)</h3>
 
             <h4>Definite</h4>
@@ -120,7 +119,7 @@ const Deliverables = () => {
       <h4>Improbable</h4> */}
             <br />
           </div>
-          <div style={{ border: '1px solid black' }}>
+          <div className="card">
             <h3>
               Supportability (who maintains it, could this be nationalized or
               internationalized)
@@ -142,7 +141,7 @@ const Deliverables = () => {
             </li>
             <br />
           </div>
-          <div style={{ border: '1px solid black' }}>
+          <div className="card">
             <h3>
               Design (constraints, What Kind of App, What Kind of Databse)
             </h3>
@@ -159,7 +158,7 @@ const Deliverables = () => {
             <li>System could function as an Android mobile app.</li>
             <br />
           </div>
-          <div style={{ border: '1px solid black' }}>
+          <div className="card">
             <h3>Implementation (language, standards, methodology)</h3>
 
             <h4>Definite</h4>
@@ -180,7 +179,7 @@ const Deliverables = () => {
               to what is selected.
             </li>
           </div>
-          <div style={{ border: '1px solid black' }}>
+          <div className="card">
             <h3>Interface</h3>
             <h4>Definite</h4>
             <li>
@@ -200,7 +199,7 @@ const Deliverables = () => {
             </li>
             <br />
           </div>
-          <div style={{ border: '1px solid black' }}>
+          <div className="card">
             <h3>Physical (device requirements, screen requirements)</h3>
 
             {/* <h4>Definite</h4> */}
@@ -213,16 +212,16 @@ const Deliverables = () => {
           </div>
 </div>:null}
         </div>
-         <div style={{ marginLeft: '3%',marginRight: '2%' }}>
-          <h2>Milestones</h2>
-          <a href="https://pawpals.beholddevelopment.com/pages/home"><h4>Project Website</h4></a>
-         <a href="https://pawpals.beholddevelopment.com/pages/team"><h4>Team Rules and Coding Practices</h4></a>
-          <a href="https://pawpals.beholddevelopment.com/pages/projects"><h4 >Project Concept</h4></a>
-         <a href="https://docs.google.com/document/d/1O6eSCXyVc0klD88hRRiPR8QYau0xyJ6soXVyVkCkdgs/edit?usp=sharing"> <h4>User Stories</h4></a>
-          <h4>Platform Selection</h4>
-          <h4>Project Plan (schedule)</h4>
-          <h4>Architecture Diagram</h4>
-          <h4>Client Handoff Plan</h4>
+         <div className="milestones" style={{ marginLeft: '3%',marginRight: '2%' }}>
+            <h2>Milestones</h2>
+            <a href="https://pawpals.beholddevelopment.com/pages/home"><h4>Project Website</h4></a>
+          <a href="https://pawpals.beholddevelopment.com/pages/team"><h4>Team Rules and Coding Practices</h4></a>
+            <a href="https://pawpals.beholddevelopment.com/pages/projects"><h4 >Project Concept</h4></a>
+          <a href="https://docs.google.com/document/d/1O6eSCXyVc0klD88hRRiPR8QYau0xyJ6soXVyVkCkdgs/edit?usp=sharing"> <h4>User Stories</h4></a>
+          <a href="https://docs.google.com/document/d/1YI8J9i8_FOxLdjgpdSB12ypoPSalViPnFgXx5vQYgQg/edit?usp=sharing"><h4>Platform Selection</h4></a>
+            <h4>Project Plan (schedule)</h4>
+            <h4>Architecture Diagram</h4>
+            <h4>Client Handoff Plan</h4>
         </div>
       </div>
     </div>
