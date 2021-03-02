@@ -6,9 +6,6 @@ import PawPalsInfograph from '../images/PawPalsInfograph.png';
 const Project = () => {
   return (
     <div style ={{marginLeft:'10%', marginRight:'15%'}}>
-      <Link to='/pages/home'>
-        <p className="iconcircle">Home</p>
-      </Link>
       <h2>
         PawPals is a social media, but for dogs. PawPals helps dog owners find
         and connect with other dog owners in the area.{' '}

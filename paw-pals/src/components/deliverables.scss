@@ -1,0 +1,22 @@
+@import '../vars.scss';
+
+.card {
+    margin: 8px;
+    padding: 8px; 
+    background-color: #71A2B6;
+    border-radius: 8px;
+
+    h3 {
+        color: $accent;
+    }
+}
+
+.milestones {
+    background-color: $primary;
+    h2 {
+        color: $accent !important;
+    }
+    padding: 8px; 
+    border-radius: 8px;
+    color: white;
+}

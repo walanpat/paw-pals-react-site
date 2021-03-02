@@ -4,9 +4,6 @@ import { BrowserRouter as Route, Link } from 'react-router-dom';
 const Team = () => {
   return (
     <div style={{ marginLeft: '10%', marginRight: '15%' }}>
-      <Link to='/pages/home'>
-        <p className='iconcircle'>Home</p>
-      </Link>
 
       <div
         className='flexWrapper'
