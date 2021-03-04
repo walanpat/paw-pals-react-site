@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Team from './components/Team';
 import PawPals from './components/PawPals';
+import Journal from './components/Journal';
 import Project from './components/Project';
 import RandomDog from './images/2Dogs.jpg';
 import Footer from './components/Footer';
@@ -38,7 +39,7 @@ const App = () => {
 
         <Route path='/pages/team' exact component={() => <Team />} />
 
-        <Route path='/pages/journal' exact component={() => <div>Update Coming Soon!</div>} />
+        <Route path='/pages/journal' exact component={() => <Journal/>} />
 
         <Route path='/pages/deliverables' exact component={() => <Deliverables/>} />
         
